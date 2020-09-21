@@ -690,7 +690,6 @@ a.lap-button:hover {
     background: #ccc;
     padding: 20px;
 	border-radius: 15px;
-	height: 250px;
 }
 
 .zoom:hover {
@@ -756,9 +755,6 @@ a.lap-button:hover {
 	.category-name{
 		font-size: 17px;
 	}
-	.crazy-facts {
-		height: 270px;
-	}
 }
 
 @media (max-width: 400px) {
@@ -801,5 +797,11 @@ a.lap-button:hover {
 @media (max-width: 338px) {
 	.book {
 		height: 180px;
+	}
+}
+
+@media (min-width: 600px) {
+	.main-content {
+		margin-top: 80px;
 	}
 }

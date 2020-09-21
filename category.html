@@ -1,0 +1,11 @@
+---
+layout: default
+title: Category
+permalink: /category
+---
+
+<div class="blog-grid-container">
+  {% for category in site.category %}
+          {% include category.html %}
+  {% endfor %}
+</div>

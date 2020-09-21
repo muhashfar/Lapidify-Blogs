@@ -68,6 +68,7 @@ collections:
     output: true
   facts:
     output: true
+    permalink: /facts/:title
 
 # Defaults
 defaults:
@@ -83,6 +84,12 @@ defaults:
       type: "category"
     values:
       layout: "category"
+  # all facts
+  - scope:
+      path: ""
+      type: "facts"
+    values:
+      layout: "facts"
 
 # Archives
 jekyll-archives:

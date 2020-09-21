@@ -1,9 +1,9 @@
+{% assign category = site.category | where: "name", fact.category | first %}
 <div class="crazy-facts" style="background: linear-gradient(to right bottom, #{{category.bg_color}} 0%, #fff 100%)">
-    {% assign category = site.category | where: "name", fact.category | first %}
        {% if fact.category %}
        <span class="category {{category.name}}" style="background: #{{category.color}};">{{ category.display_name }}</span>
        {% endif %}
        <span class="fact-text">
-           <p>{{fact.content | markdownify}}</p>
+           <p>{{ fact.excerpt | strip_html | truncatewords:20 }} <i><a href="{{site.baseurl}}{{fact.url}}" style="color: #{{category.color}};font-size:13px;">[Read More]</a></i></p>
        </span>
    </div>

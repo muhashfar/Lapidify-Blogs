@@ -7,7 +7,7 @@ menu:
     svg-class: feather feather-grid
     svg: <rect x="3" y="3" width="7" height="7"></rect><rect x="14" y="3" width="7" height="7"></rect><rect x="14" y="14" width="7" height="7"></rect><rect x="3" y="14" width="7" height="7"></rect>
   - title: Categories
-    url: /categories
+    url: /category
     badge: ""
     subheading: The top and best categories of ours.
     color: ff7cad

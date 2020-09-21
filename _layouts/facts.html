@@ -1,0 +1,8 @@
+---
+layout: page
+---
+{% assign category = site.category | where: "name", page.category | first %}
+{% if page.category %}
+<span class="category {{category.name}}" style="background: #{{category.color}};">{{ category.display_name }}</span>
+{% endif %}
+{{content}}

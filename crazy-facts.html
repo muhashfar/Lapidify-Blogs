@@ -1,0 +1,11 @@
+---
+layout: default
+title: 🤪 Crazy Facts
+permalink: /crazy-facts
+---
+
+<div class="blog-grid-container">
+  {% for fact in site.facts %}
+          {% include facts.html %}
+  {% endfor %}
+</div>

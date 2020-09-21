@@ -6,7 +6,7 @@
     <div class="card h-index {{category.name}}" style="background: linear-gradient(to bottom, #{{category.bg_color}} 0%, #fff 100%);">
         <div class="card-body">
             {% if post.category %}
-            <span class="category {{category.name}}" style="background: #{{category.color}};">{{ category.display_name }}</span>
+            <span class="category {{category.name}}" style="background: #{{category.color}};"><a href="{{site.baseurl}}{{category.url}}" style="text-decoration: none;color: #212529;">{{ category.display_name }}</a></span>
             {% endif %}
             <h2 class="card-title">
                 <a class="text-dark" href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
