@@ -1,6 +1,6 @@
 ---
-name: programming
-display_name: 💻 Programming
+name: code
+display_name: 💻 code
 bg_color: f8eeff
 color: b77cff
 
