@@ -1,0 +1,102 @@
+# Quick Meta
+title: Lapidify
+name: Lapidify
+description: We take you to the awesome world of knowledge. Read contents from almost all ypur favorite topics including science, technology, facts etc. Enjoy!
+
+# BaseURL
+baseurl: ""
+
+# Author Box
+authorbox: disabled
+
+# Plugins
+plugins:
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-archives
+  - jekyll-figure
+
+# Highlighter
+highlighter: none
+
+# Disqus
+disqus: demowebsite
+
+# Includes
+include:
+  - _pages
+
+# Mailchimp
+mailchimp-list: ''
+
+# Permalink
+permalink: /:title/
+
+# Lazy Load Images
+lazyimages: disabled
+
+# Paginate
+paginate_path: /blog/page:num/
+paginate: 6
+
+#Saas
+sass:
+  sass_dir: _sass
+  style: compressed
+
+# Markdown
+markdown: kramdown
+kramdown:
+  syntax_highlighter_opts:
+    disable: true
+
+# Collections
+collections:
+  authors:
+    output: true
+  category:
+    output: true
+    permalink: /category/:name
+  books:
+    output: true
+    permalink: /books/:title
+  lapidify:
+    output: true
+  videos:
+    output: true
+  facts:
+    output: true
+
+# Defaults
+defaults:
+  # all book
+  - scope:
+      path: ""
+      type: "books"
+    values:
+      layout: "book"
+  # all category
+  - scope:
+      path: ""
+      type: "category"
+    values:
+      layout: "category"
+
+# Archives
+jekyll-archives:
+  enabled:
+    - categories
+  layout: archive
+  permalinks:
+    category: /cat/:name/
+
+# Exclude
+exclude:
+  - changelog.md
+  - LICENSE.txt
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+
