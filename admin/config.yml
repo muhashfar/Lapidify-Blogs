@@ -1,10 +1,21 @@
 backend:
-  name: github
-  repo: Lapidify/Lapidify-Blogs
+  name: git-gateway
 
+# Backend
 local_backend: true
 
-media_folder: "assets/images"
+# Publish Mode
+publish_mode: editorial_workflow 
+
+# Site URL
+site_url: https://Lapidify.tk
+
+# media folder
+media_folder: "images/uploads"
+
+# Logo URL
+logo_url: /assets/images/netlify-cms.png
+
 collections:
   - label: "Category"
     name: "category"
