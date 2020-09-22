@@ -1,9 +1,7 @@
 ---
 title: Demo video 4
-categories:
-- code
-thumbnail: "/assets/images/5.jpg"
-duration: 3650.0
-video_link: ''
+thumbnail: /assets/images/5.jpg
+category: code
+duration: 01:00:50
+video_link: ""
 ---
-
