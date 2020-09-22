@@ -713,6 +713,17 @@ a.lap-button:hover {
 	color: #212529;
 }
 
+.form-control {
+	border-radius: 5px;
+}
+
+.label-contributor {
+    display: block;
+    font-size: 12px;
+    font-weight: 600;
+    color: #868686;
+}
+
 /* Responcive */
 @media (min-width: 1000px) {
 	.h-index {

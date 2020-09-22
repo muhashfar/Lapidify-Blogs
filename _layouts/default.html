@@ -32,7 +32,10 @@
 <link rel="shortcut icon" href="{{site.data.metadata.icon}}">
 
 <!-- owlcarousel-->
-<link rel="stylesheet" href="owlcarousel/owl.carousel.min.css">
+<link rel="stylesheet" href="{{site.baseurl}}/owlcarousel/owl.carousel.min.css">
+
+<!-- Markdown Editor -->
+<link rel="stylesheet" href="{{site.baseurl}}/assets/css/markdown-editor.css">
 
 <link rel="stylesheet" href="owlcarousel/owl.theme.default.min.css">
 <!-- end owlcarousel -->
@@ -164,10 +167,17 @@ ga('send', 'pageview');
 </script>
 <!-- End script of Netlify CMS -->
 <!-- Owlcarousel -->
-<script src="owlcarousel/jquery.min.js"></script>
+<script src="{{site.baseurl}}/owlcarousel/jquery.min.js"></script>
 
-<script src="owlcarousel/owl.carousel.min.js"></script>
+<script src="{{site.baseurl}}/owlcarousel/owl.carousel.min.js"></script>
 <!--end-->
+
+<!-- Markdown JS -->
+<script src="{{site.baseurl}}/assets/js/markdown-editor.js"></script>
+<script>
+    var simplemde = new SimpleMDE({ element: document.getElementById("demo") });
+</script>
+
 <script src="{{ site.baseurl }}/assets/js/prism.js"></script>
 
 <script src="{{ site.baseurl }}/assets/js/theme.js"></script>

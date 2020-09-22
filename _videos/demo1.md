@@ -1,9 +1,7 @@
 ---
 title: Demo video 1
-categories:
-- science
-thumbnail: "/assets/images/1.jpg"
-duration: 50.0
-video_link: ''
+thumbnail: /assets/images/1.jpg
+category: science
+duration: 00:00:50
+video_link: ""
 ---
-
