@@ -724,6 +724,13 @@ a.lap-button:hover {
     color: #868686;
 }
 
+select {
+    display: block;
+    border-radius: 5px;
+	border: 2px solid #ccc;
+	height: calc(1.5em + .75rem + 2px);
+}
+
 /* Responcive */
 @media (min-width: 1000px) {
 	.h-index {
