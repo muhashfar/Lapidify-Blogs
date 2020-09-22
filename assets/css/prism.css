@@ -700,6 +700,19 @@ a.lap-button:hover {
     width: 130px;
 }
 
+.justify-content-center.align-items-center {
+    text-align: center;
+}
+
+.related-posts .badge {
+	border-radius: 15px;
+}
+
+.badge-related-posts {
+	background: #A6A6A63D;
+	color: #212529;
+}
+
 /* Responcive */
 @media (min-width: 1000px) {
 	.h-index {
