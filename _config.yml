@@ -1,81 +1,108 @@
----
+# Quick Meta
 title: Lapidify
-timezone: UTC
-collections:
-  authors:
-    title: Authors
-    output: true
-  books:
-    title: Books
-    output: true
-    permalink: "/books/:title"
-  category:
-    title: Category
-    output: true
-    permalink: "/category/:name"
-  facts:
-    title: Facts
-    output: true
-  lapidify:
-    title: Lapidify
-    output: true
-  posts:
-    title: Posts
-    output: true
-  uploads:
-    title: Uploads
-    output: true
-  videos:
-    title: Videos
-    output: true
-defaults:
-- scope:
-    path: ''
-    type: books
-  values:
-    layout: book
-- scope:
-    path: ''
-    type: category
-  values:
-    layout: category
 name: Lapidify
-description: We take you to the awesome world of knowledge. Read contents from almost
-  all ypur favorite topics including science, technology, facts etc. Enjoy!
-baseurl: ''
+description: We take you to the awesome world of knowledge. Read contents from almost all ypur favorite topics including science, technology, facts etc. Enjoy!
+
+# BaseURL
+baseurl: ""
+
+# Author Box
 authorbox: disabled
+
+# Plugins
 plugins:
-- jekyll-paginate
-- jekyll-sitemap
-- jekyll-feed
-- jekyll-seo-tag
-- jekyll-archives
-- jekyll-figure
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-archives
+  - jekyll-figure
+
+# Highlighter
 highlighter: none
+
+# Disqus
 disqus: demowebsite
+
+# Includes
 include:
-- _pages
+  - _pages
+
+# Mailchimp
 mailchimp-list: ''
-permalink: "/:title/"
+
+# Permalink
+permalink: /:title/
+
+# Lazy Load Images
 lazyimages: disabled
-paginate_path: "/blog/page:num/"
+
+# Paginate
+paginate_path: /blog/page:num/
 paginate: 6
+
+#Saas
 sass:
   sass_dir: _sass
   style: compressed
+
+# Markdown
 markdown: kramdown
 kramdown:
   syntax_highlighter_opts:
     disable: true
+
+# Collections
+collections:
+  authors:
+    output: true
+  category:
+    output: true
+    permalink: /category/:name
+  books:
+    output: true
+    permalink: /books/:title
+  lapidify:
+    output: true
+  videos:
+    output: true
+  facts:
+    output: true
+
+# Defaults
+defaults:
+  # all book
+  - scope:
+      path: ""
+      type: "books"
+    values:
+      layout: "book"
+  # all category
+  - scope:
+      path: ""
+      type: "category"
+    values:
+      layout: "category"
+  # all facts
+  - scope:
+      path: ""
+      type: "facts"
+    values:
+      layout: "facts"
+
+# Archives
 jekyll-archives:
   enabled:
-  - categories
+    - categories
   layout: archive
   permalinks:
-    category: "/cat/:name/"
+    category: /cat/:name/
+
+# Exclude
 exclude:
-- changelog.md
-- LICENSE.txt
-- README.md
-- Gemfile
-- Gemfile.lock
+  - changelog.md
+  - LICENSE.txt
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+
