@@ -1,109 +1,87 @@
-# Quick Meta
+---
 title: Lapidify
+timezone: UTC
+collections:
+  authors:
+    title: Authors
+    output: true
+  books:
+    title: Books
+    output: true
+    permalink: "/books/:title"
+  category:
+    title: Category
+    output: true
+    permalink: "/category/:name"
+  facts:
+    title: Facts
+    output: true
+    permalink: "/facts/:title"
+  lapidify:
+    title: Lapidify
+    output: true
+  posts:
+    title: Posts
+    output: true
+  uploads:
+    title: Uploads
+    output: true
+  videos:
+    title: Videos
+    output: true
+defaults:
+- scope:
+    path: ''
+    type: books
+  values:
+    layout: book
+- scope:
+    path: ''
+    type: category
+  values:
+    layout: category
+- scope:
+    path: ''
+    type: facts
+  values:
+    layout: facts
 name: Lapidify
-description: We take you to the awesome world of knowledge. Read contents from almost all ypur favorite topics including science, technology, facts etc. Enjoy!
-
-# BaseURL
-baseurl: ""
-
-# Author Box
+description: We take you to the awesome world of knowledge. Read contents from almost
+  all ypur favorite topics including science, technology, facts etc. Enjoy!
+baseurl: ''
 authorbox: disabled
-
-# Plugins
 plugins:
-  - jekyll-paginate
-  - jekyll-sitemap
-  - jekyll-feed
-  - jekyll-seo-tag
-  - jekyll-archives
-  - jekyll-figure
-
-# Highlighter
+- jekyll-paginate
+- jekyll-sitemap
+- jekyll-feed
+- jekyll-seo-tag
+- jekyll-archives
+- jekyll-figure
 highlighter: none
-
-# Disqus
 disqus: demowebsite
-
-# Includes
 include:
-  - _pages
-
-# Mailchimp
+- _pages
 mailchimp-list: ''
-
-# Permalink
-permalink: /:title/
-
-# Lazy Load Images
+permalink: "/:title/"
 lazyimages: disabled
-
-# Paginate
-paginate_path: /blog/page:num/
+paginate_path: "/blog/page:num/"
 paginate: 6
-
-#Saas
 sass:
   sass_dir: _sass
   style: compressed
-
-# Markdown
 markdown: kramdown
 kramdown:
   syntax_highlighter_opts:
     disable: true
-
-# Collections
-collections:
-  authors:
-    output: true
-  category:
-    output: true
-    permalink: /category/:name
-  books:
-    output: true
-    permalink: /books/:title
-  lapidify:
-    output: true
-  videos:
-    output: true
-  facts:
-    output: true
-    permalink: /facts/:title
-
-# Defaults
-defaults:
-  # all book
-  - scope:
-      path: ""
-      type: "books"
-    values:
-      layout: "book"
-  # all category
-  - scope:
-      path: ""
-      type: "category"
-    values:
-      layout: "category"
-  # all facts
-  - scope:
-      path: ""
-      type: "facts"
-    values:
-      layout: "facts"
-
-# Archives
 jekyll-archives:
   enabled:
-    - categories
+  - categories
   layout: archive
   permalinks:
-    category: /cat/:name/
-
-# Exclude
+    category: "/cat/:name/"
 exclude:
-  - changelog.md
-  - LICENSE.txt
-  - README.md
-  - Gemfile
-  - Gemfile.lock
-
+- changelog.md
+- LICENSE.txt
+- README.md
+- Gemfile
+- Gemfile.lock
