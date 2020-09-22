@@ -2,8 +2,6 @@ backend:
   name: github
   repo: Lapidify/Lapidify-Blogs
 
-publish_mode: editorial_workflow
-
 local_backend: true
 
 media_folder: "assets/images"
