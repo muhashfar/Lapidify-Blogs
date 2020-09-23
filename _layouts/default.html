@@ -31,6 +31,10 @@
 <!-- basic favicon -->
 <link rel="shortcut icon" href="{{site.data.metadata.icon}}">
 
+{% assign category = site.category | where: "name", page.category | first %}
+<!-- Theme color -->
+<meta name="theme-color" {% if page.color %}content="#{{page.color}}"{% endif %}{% if page.category %}content="#{{category.color}}"{% endif %}>
+
 <!-- owlcarousel-->
 <link rel="stylesheet" href="{{site.baseurl}}/owlcarousel/owl.carousel.min.css">
 
