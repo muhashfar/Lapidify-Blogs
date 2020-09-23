@@ -22,8 +22,29 @@ Most of the major cities in the world are located on the banks of rivers. Here s
 8. **Brussels** - *Senne*
 9. **Bristol** - *Avon*
 10. **Budapest** - *Danube*
-11. Cairo - Nile
-12. Chittangong - Karnaphuli
-13. Damascus - Barada
-14. Delhi - Yamuna
-15.
+11. **Cairo** - *Nile*
+12. **Chittangong** - *Karnaphuli*
+13. **Damascus** - *Barada*
+14. **Delhi** - *Yamuna*
+15. **Glasgow** - *Clyde*
+16. **Jakarta** - *Ciliwung*
+17. **Kolkata** - *Hooghly*
+18. **Lahore** - *Ravi*
+19. **Lisbon** - *Tagus*
+20. **Liverpool** - *Mersey*
+21. **London** - *Thames*
+22. **Montreal** - *Ottawa*
+23. **Moscow** - *Moskva*
+24. **Melbourne** - *Yarra*
+25. **New Orleans** - *Mississippi*
+26. **New York** - *Hudson*
+27. **Paris** - *Seine*
+28. **Philadelphia** - *Delaware*
+29. **Quebec** - *St*. *Lawrence*
+30. **Rangoon** - *Irawadi*
+31. **Rome** - *Tiber*
+32. **Seoul** - *Han*
+33. **Sydney** - *Hawkesbury*
+34. **Tokyo** - *Sumida*
+35. **Vienna** - *Danube*
+36. **Washington DC** - *Potamac*
