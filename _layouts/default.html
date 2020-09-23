@@ -44,7 +44,10 @@
 <link href="{{ site.baseurl }}/assets/css/theme.css" rel="stylesheet">
 
 <script src="{{ site.baseurl }}/assets/js/jquery.min.js"></script>
-
+<!-- Adsense -->
+{% if page.adsense == 'true' %}
+<script data-ad-client="ca-pub-4944786899709076" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+{% endif %}
 </head>
 
 {% if jekyll.environment == 'production' %}
@@ -195,7 +198,7 @@ var simplemde = new SimpleMDE({
 	},
 	lineWrapping: true,
 	parsingConfig: {
-		allowAtxHeaderWithoutSpace: true,
+		allowAtxHeaderWithoutSpace: false,
 		strikethrough: false,
 		underscoresBreakWords: true,
 	},
