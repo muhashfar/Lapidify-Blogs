@@ -1,5 +1,5 @@
 ---
-title: 📞 Contact
+title: 💓Contact
 permalink: "/contact"
 layout: page
 comments: false
