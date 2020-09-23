@@ -2,6 +2,7 @@
 title: Contributor Programme
 color: ff7cad
 bg_color: ffeef8
-link:
+link: 
+
 ---
-***Lapidify*** introduces **contributor programme**. Contribute your valueble contents to us👉.
+**_Lapidify_** introduces **contributor programme**. Contribute your valueble contents to us👉. [Click here](https://lapidify.tk/content-contribution "Contributor")
