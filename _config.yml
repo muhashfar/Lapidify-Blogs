@@ -68,6 +68,9 @@ collections:
     output: true
   facts:
     output: true
+    permalink: /facts/:title
+  alerts:
+    output: true
 
 # Defaults
 defaults:

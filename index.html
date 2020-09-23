@@ -2,7 +2,15 @@
 title: Home
 layout: default
 ---
-
+<!-- Alert
+================================================== -->
+<div class="owl-carousel owl-theme alert-section">
+{% for alert in site.alerts %}
+<div class="alert-index" style="background: #{{alert.bg_color}};color: #{{alert.color}}">
+    {{alert.content | markdownify}}
+</div>
+{% endfor %}
+</div>
 <!-- Recent Posts
 ================================================== -->
 <span class="index-heading">🔥 Recent Posts</span>
@@ -19,26 +27,6 @@ layout: default
 <div class="blog-grid-container owl-carousel owl-theme index-page">
     {% for post in site.posts limit:5 %}
         {% include postbox-index.html %}
-    {% endfor %}
-</div>
-
-<!-- Videos
-================================================== -->
-<span class="index-heading">📺 Videos</span>
-<span class="index-subheading">Explanatory videos</span>
-<div class="blog-grid-container owl-carousel owl-theme video-section">
-    {% for video in site.videos limit:6 %}
-    {% include videobox.html %}
-    {% endfor %}
-</div>
-<!-- Science
-================================================== -->
-<span class="index-heading">🎯 Science</span>
-<span class="index-subheading">Explore the latest in science.</span>
-<div class="blog-grid-container owl-carousel owl-theme index-page">
-    {% assign filtered_posts_action = site.posts | where: 'category', "science" | where_exp:"post","post.is_generated != true" %}
-    {% for post in filtered_posts_action limit:5 %}
-    {% include postbox-index.html %}
     {% endfor %}
 </div>
 
@@ -60,6 +48,17 @@ layout: default
    {% for fact in site.facts limit:5 %}
    {% include facts.html %}
    {% endfor %}
+</div>
+
+<!-- Science
+================================================== -->
+<span class="index-heading">🎯 Science</span>
+<span class="index-subheading">Explore the latest in science.</span>
+<div class="blog-grid-container owl-carousel owl-theme index-page">
+    {% assign filtered_posts_action = site.posts | where: 'category', "science" | where_exp:"post","post.is_generated != true" %}
+    {% for post in filtered_posts_action limit:5 %}
+    {% include postbox-index.html %}
+    {% endfor %}
 </div>
 
 <!-- Recommended Books

@@ -731,6 +731,14 @@ select {
 	height: calc(1.5em + .75rem + 2px);
 }
 
+.alert-index {
+    background: #ffeef8;
+    padding: 15px 15px 3px 18px;
+    border-radius: 15px;
+	color: #ff7cad;
+	margin-bottom: 15px;
+}
+
 /* Responcive */
 @media (min-width: 1000px) {
 	.h-index {

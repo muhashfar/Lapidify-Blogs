@@ -110,13 +110,19 @@ collections:
       preview: false
       delete: false
     fields:
-      - label: "Fact No"
-        name: "fact_no"
-        widget: "number"
-        value_type: "float"
-        step: 1
+      - label: "Publish Date"
+        name: "date"
+        widget: "datetime"
+        format: "YYYY-MM-DD HH:mm:ss"
+      - label: "Author"
+        name: "author"
+        widget: "relation"
+        collection: "authors"
+        searchFields: [display_name]
+        displayFields: [display_name]
+        valueField: "name"
         required: true
-        hint: "Ex: 1"
+        hint: "Ex: John Doe"
       - label: "Title"
         name: "title"
         widget: "string"
