@@ -9,6 +9,7 @@ tags:
   - Rivers
   - Nature
 description: Some major cities that lie in the banks of the rivers.
+adsense: true
 ---
 Most of the major cities in the world are located on the banks of rivers. Here some of them:
 

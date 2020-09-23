@@ -10,6 +10,7 @@ tags:
   - DNA
   - Copy
 description: A brief detailing about cloning.
+adsense: true
 ---
 **Cloning** is the process of creating an identical copy of an organism. Our bodies are made up of billions of cells. Each of these cells has a copy of all the genetic information needed by the body. This is called the genetic code.
 
