@@ -28,3 +28,5 @@ fields:
 - type: boolean
   name: adsense
   label: adsense
+pages:
+- _posts/why-did-the-development-of-the-calender-help-the-development-of-civilization.md
