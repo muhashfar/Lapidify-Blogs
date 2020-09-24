@@ -10,3 +10,9 @@ layout: default
           {% include postbox.html %}
   {% endfor %}
 </div>
+<div class="blog-grid-container">
+  {% assign filtered_facts = site.facts | where: 'category', page.name | where_exp:"fact","fact.is_generated != true" %}
+  {% for fact in filtered_facts %}
+          {% include facts.html %}
+  {% endfor %}
+</div>

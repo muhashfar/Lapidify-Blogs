@@ -1,7 +1,7 @@
 ---
 title: Space
 name: space
-display_name: "\U0001F680 Space"
+display_name: "🪐 Space"
 bg_color: efeeff
 color: 7c90ff
 ---

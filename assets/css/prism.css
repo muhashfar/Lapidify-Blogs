@@ -739,6 +739,10 @@ select {
 	margin-bottom: 15px;
 }
 
+.alert-index a {
+	color: #212529;
+}
+
 /* Responcive */
 @media (min-width: 1000px) {
 	.h-index {

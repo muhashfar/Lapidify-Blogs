@@ -1,6 +1,7 @@
 ---
 title: Home
 layout: default
+color: 0792ce
 ---
 <!-- Alert
 ================================================== -->
@@ -46,7 +47,7 @@ layout: default
 <span class="index-subheading">Some crazy things happening on Earth</span>
 <div class="blog-grid-container owl-carousel owl-theme crazy-facts-section">
    {% for fact in site.facts limit:5 %}
-   {% include facts.html %}
+   {% include facts-index.html %}
    {% endfor %}
 </div>
 
@@ -81,7 +82,7 @@ layout: default
 
 <!-- lapidify Specials
 ================================================== -->
-<span class="index-heading">Lapidify Feed</span>
+<span id="lapidify-feed" class="index-heading">Lapidify Feed</span>
 <span class="index-subheading">Explore our offers and other services.</span>
 <div class="blog-grid-container">
     {% for lapidify in site.lapidify %}
