@@ -743,6 +743,10 @@ select {
 	color: #212529;
 }
 
+li.lunrsearchresult {
+    list-style-type: none;
+}
+
 /* Responcive */
 @media (min-width: 1000px) {
 	.h-index {
