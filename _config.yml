@@ -1,7 +1,13 @@
 # Quick Meta
 title: Lapidify
 name: Lapidify
+short_name: Lapidify
 description: We take you to the awesome world of knowledge. Read contents from almost all ypur favorite topics including science, technology, facts etc. Enjoy!
+language: en
+color: "#0792ce"
+lang_direction: "ltr"
+bg_color: "#fff"
+url: "https://lapidify.tk"
 
 # BaseURL
 baseurl: ""
