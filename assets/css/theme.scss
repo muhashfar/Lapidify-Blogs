@@ -567,7 +567,7 @@ img, img:hover {
     z-index: 1026;
 }
 .modal-open .modal {
-    background: rgba(0,0,0,0.3);
+    background: linear-gradient(to right bottom, #eef9ff 0%, #fff 100%);
 }
 .lunrsearchresult {
     .title {
