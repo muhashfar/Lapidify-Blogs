@@ -776,7 +776,7 @@ li.lunrsearchresult {
 	.card-title a {
 		font-size: 17px;
 	}
-	.post-date {
+	.hidden {
 		display: none;
 	}
 	.category {
@@ -813,6 +813,12 @@ li.lunrsearchresult {
 @media (max-width: 420px) {
 	#menu ul li {
 		width: calc(100vw - 60px);
+	}
+}
+
+@media (min-width: 420px) {
+	#menu {
+		border-radius: 0px 25px 25px 0px;
 	}
 }
 
