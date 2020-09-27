@@ -11,7 +11,6 @@ tags:
   - Changed the World
 description: Since the invention of writing, people had been trying to come up
   with something to write on that was easy and cheap to make.
-rating: ""
 ---
 Since the invention of writing, people had been trying to come up with something to write on that was easy and cheap to make. Paper seems to have been invented around 100BC in China.
 
