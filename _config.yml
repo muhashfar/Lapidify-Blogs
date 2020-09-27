@@ -9,6 +9,19 @@ lang_direction: "ltr"
 bg_color: "#fff"
 url: "https://lapidify.tk"
 
+# Manifest
+manifest:
+  lang: en
+  dir: ltr
+  name: Lapidify
+  short_name: Lapidify
+  display: standalone
+  description: We take you to the awesome world of knowledge. Read contents from almost all ypur favorite topics including science, technology, facts etc. Enjoy!
+  background_color: "#fff"
+  theme_color: "#fff"
+  orientation: natural
+  start_url: "/"
+
 # BaseURL
 baseurl: ""
 
