@@ -12,6 +12,7 @@ tags:
   - Warfare
 description: The Chinese first discovered gunpowder in their search for a magic
   mixture that would grant a person eternal life.
+adsense: true
 ---
 The Chinese first discovered gunpowder in their search for a magic mixture that would grant a person eternal life. They stumbled upon its explosive qualities quite accidently while experimenting with saltpeter, a waste product of bacteria that feeds on decaying organic matter.
 

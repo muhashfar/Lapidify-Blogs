@@ -10,6 +10,7 @@ tags:
   - Atoms
 description: From the 7th century onwards, ancient Greek philosophers began to
   wonder about the fundamental substance on which all creation is based.
+adsense: true
 ---
 From the 7th century onwards, ancient Greek philosophers began to wonder about the fundamental substance on which all creation is based. Some believed it was water 💦 , others thought it was air, while still others said that it was fire. 🔥
 
